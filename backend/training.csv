@@ -1,0 +1,92 @@
+text,label
+What are your store hours?,store_hours
+Can I return a product I bought online?,return_policy
+Where is my order?,order_tracking
+Do you offer international shipping?,shipping_policy
+How do I contact customer service?,customer_service
+What payment methods do you accept?,payment_methods
+Can I cancel my order?,order_cancellation
+How long does shipping take?,shipping_time
+Do you offer gift wrapping?,gift_wrapping
+Can I change my delivery address?,address_change
+Do you have a physical store?,physical_store
+Can I pick up my order in-store?,in_store_pickup
+Are there any ongoing sales?,sales
+Can I get a discount for my first order?,first_order_discount
+What is your warranty policy?,warranty_policy
+Do you offer free returns?,free_returns
+How do I reset my password?,reset_password
+Can I use multiple promo codes?,multiple_promo_codes
+What is your return window?,return_window
+Can I get a refund?,refund
+Is my personal data safe?,data_privacy
+How do I update my account details?,update_account_details
+Do you ship to PO boxes?,ship_to_po_box
+How do I track my shipment?,shipment_tracking
+Can I request a replacement?,request_replacement
+How do I cancel my subscription?,cancel_subscription
+Can I pre-order new products?,pre_order
+How do I redeem a gift card?,redeem_gift_card
+Do you offer student discounts?,student_discounts
+Can I track my return shipment?,track_return_shipment
+How do I exchange a product?,exchange_product
+Do you offer bulk discounts?,bulk_discounts
+Do you have loyalty programs?,loyalty_program
+Is there a minimum order amount for free shipping?,free_shipping_minimum
+How do I apply a promo code?,apply_promo_code
+What shipping carriers do you use?,shipping_carriers
+Do you ship internationally?,international_shipping
+How do I contact your sales team?,contact_sales
+Can I change my payment method after placing an order?,change_payment_method
+Do you offer expedited shipping?,expedited_shipping
+What is the status of my refund?,refund_status
+What should I do if I received the wrong item?,wrong_item_received
+Do you offer price matching?,price_matching
+Can I get an invoice for my purchase?,request_invoice
+How do I reset my login credentials?,reset_login
+What is your policy on damaged goods?,damaged_goods_policy
+Can I request a custom order?,custom_order_request
+How do I delete my account?,delete_account
+Can I update my delivery preferences?,update_delivery_preferences
+Do you offer contactless delivery?,contactless_delivery
+Are there any COVID-19 shipping delays?,covid_shipping_delays
+Can I use my gift card for online purchases?,use_gift_card_online
+Can I get a personalized product?,personalized_product
+How do I subscribe to your newsletter?,subscribe_newsletter
+Do you offer installment payments?,installment_payments
+What is the status of my pre-order?,pre_order_status
+Can I order from outside the country?,international_order
+Is there a warranty on electronic products?,electronics_warranty
+How do I track my in-store pickup?,track_instore_pickup
+Do you have eco-friendly packaging?,eco_friendly_packaging
+Can I pay with PayPal?,paypal_payment
+How do I use a referral code?,use_referral_code
+Can I request a custom product size?,custom_size_request
+What are your Black Friday deals?,black_friday_deals
+How do I request a return label?,request_return_label
+How do I report a technical issue?,report_technical_issue
+Do you have a customer loyalty app?,loyalty_app
+Can I split my payment?,split_payment
+Do you ship on weekends?,weekend_shipping
+How do I update my subscription preferences?,update_subscription_preferences
+Do you offer curbside pickup?,curbside_pickup
+Can I request a different delivery date?,request_delivery_date_change
+What happens if my order is lost?,order_lost
+How do I track my order once it’s shipped?,track_shipped_order
+How do I request a repair for my product?,product_repair_request
+Do you offer warranty on furniture?,furniture_warranty
+Can I add items to an existing order?,add_items_to_order
+Do you have a store locator?,store_locator
+Can I request a same-day delivery?,same_day_delivery
+What is your exchange policy?,exchange_policy
+How do I report a missing item?,report_missing_item
+Can I use cryptocurrency for payment?,cryptocurrency_payment
+Do you offer digital products?,digital_products
+What is your delivery coverage area?,delivery_coverage
+How do I leave a product review?,leave_product_review
+Can I request a product demo?,request_product_demo
+Do you offer wholesale prices?,wholesale_prices
+Can I request a sample product?,sample_request
+What is your policy on hazardous materials?,hazardous_materials_policy
+Can I get updates on new products?,product_updates
+How do I remove items from my cart?,remove_cart_items
