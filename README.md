@@ -1,39 +1,119 @@
-# Project Overview
 
-This project is a comprehensive natural language processing (NLP) system designed to classify user inputs into predefined intents and extract relevant entities. The system leverages the power of fine-tuned BERT models for intent classification and spaCy for entity recognition.
+# AI Chatbot for Customer Support
 
-# Key Features
+Welcome to the AI Chatbot project! This repository contains a chatbot designed to handle customer queries and provide relevant information based on user inputs. Built using state-of-the-art NLP models and custom-trained on a dataset of customer service-related questions, this chatbot is optimized to deliver accurate and contextually appropriate responses.
 
-1. **Intent Classification**: The system can classify user inputs into predefined intents using a fine-tuned BERT model. This allows for accurate identification of user goals and enables the system to respond accordingly.
-2. **Entity Recognition**: Utilizing spaCy, the system can extract entities such as names, locations, and organizations from user inputs. This feature enhances the system's ability to understand the context and provide more personalized responses.
-3. **Label Mapping**: The project includes a label mapping system that converts numerical labels to human-readable labels, making it easier to understand the classification results.
-4. **Modular Design**: The system is designed with modularity in mind, allowing for easy integration of new models, tokenizers, or NLP tools as needed.
+## Features
 
-# Technical Details
+- **Intent Classification**: Classify user queries into predefined categories such as store hours, return policies, and order tracking.
+- **Entity Recognition**: Identify and extract relevant entities from user inputs using spaCy.
+- **Fine-Tuned BERT Model**: Utilizes a fine-tuned BERT model for high-quality intent classification.
+- **API Integration**: Provides a REST API for easy integration into web or mobile applications.
 
-* **Backend**: The project uses Python as the primary programming language.
-* **NLP Models**: The system leverages fine-tuned BERT models for intent classification and spaCy for entity recognition.
-* **Tokenization**: The project utilizes the Hugging Face Transformers library for tokenization.
-* **Label Mapping**: The label mapping system is implemented using JSON files for easy maintenance and updates.
+## Getting Started
 
-# Getting Started
+### Prerequisites
 
-To get started with this project, follow these steps:
+- Python 3.7+
+- [pip](https://pip.pypa.io/en/stable/) (Python package installer)
+- [Virtualenv](https://virtualenv.pypa.io/en/latest/) (for isolated Python environments)
 
-1. Clone the repository to your local machine.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Ensure you have the necessary NLP models and tokenizers installed.
-4. Run the project using your preferred method (e.g., using a Python IDE or command line).
+### Installation
 
-# Contributing
+1. **Clone the repository:**
 
-Contributions to this project are welcome. If you'd like to contribute, please follow these steps:
+    ```bash
+    git clone https://github.com/IMRANDIL/ai-chatbot.git
+    cd ai-chatbot
+    ```
+
+2. **Create and activate a virtual environment:**
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use: venv\Scripts\activate
+    ```
+
+3. **Install the required dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Download or train the model:**
+
+    Follow the instructions in `train_model.py` to train your model or use the pre-trained model available in the repository.
+
+5. **Prepare the dataset:**
+
+    Ensure that your training data is in the `training.csv` file format.
+
+### Usage
+
+1. **Start the Flask server:**
+
+    ```bash
+    python app.py
+    ```
+
+    The API will be available at `http://localhost:5000`.
+
+2. **Send a POST request to the `/process` endpoint with the user input:**
+
+    Example using `curl`:
+
+    ```bash
+    curl -X POST http://localhost:5000/process -H "Content-Type: application/json" -d '{"input": "What are your store hours?"}'
+    ```
+
+    Example request body:
+
+    ```json
+    {
+      "input": "What are your store hours?"
+    }
+    ```
+
+    Example response:
+
+    ```json
+    {
+      "entities": [],
+      "classification": {
+        "label": "store_hours",
+        "score": 0.95
+      }
+    }
+    ```
+
+### Model Training
+
+To train the model, use the `train_model.py` script:
+
+```bash
+python train_model.py
+```
+
+Ensure that `training.csv` is correctly formatted and contains the necessary training data.
+
+### Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
 
 1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Implement your changes.
-4. Submit a pull request.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
 
-# License
+### License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Acknowledgments
+
+- **Hugging Face Transformers** for providing powerful NLP models.
+- **spaCy** for robust entity recognition.
+- **Flask** for the lightweight API server.
+
+For any questions or support, please reach out to [your email address] or open an issue in the repository.
