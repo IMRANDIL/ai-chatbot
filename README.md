@@ -42,7 +42,7 @@ Welcome to the AI Chatbot project! This repository contains a chatbot designed t
 
 4. **Download or train the model:**
 
-    Follow the instructions in `train_model.py` to train your model or use the pre-trained model available in the repository.
+    Follow the instructions in `intent_model.py` to train your model or use the pre-trained model available in the repository.
 
 5. **Prepare the dataset:**
 
@@ -88,10 +88,10 @@ Welcome to the AI Chatbot project! This repository contains a chatbot designed t
 
 ### Model Training
 
-To train the model, use the `train_model.py` script:
+To train the model, use the `intent_model.py` script:
 
 ```bash
-python train_model.py
+python intent_model.py
 ```
 
 Ensure that `training.csv` is correctly formatted and contains the necessary training data.
